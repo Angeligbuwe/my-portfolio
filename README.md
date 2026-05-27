@@ -1,77 +1,103 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌸 Angel Igbuwe Portfolio Website
 
-Currently, two official plugins are available:
+A modern and responsive personal portfolio website built with React, TypeScript, Tailwind CSS, and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio showcases my projects, skills, experience, AI features, and contact information.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Responsive modern UI
+- Dark theme design
+- AI Portfolio Assistant
+- English → German Translator
+- Contact form integration
+- Project showcase section
+- Experience & Education timeline
+- Smooth animations and hover effects
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Technologies Used
+ 
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- React Icons
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📂 Projects Included
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🍰 Cake Recipe Finder
+A recipe website where users can search for cake recipes using an API.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 💻 Portfolio Website
+My personal portfolio built with React, TypeScript, and Tailwind CSS.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# my-portfolio
->>>>>>> bb897598075f557818d4e79f3216e51f8f79355c
+### 📄 Resume Website
+A responsive resume website showcasing my profile and skills.
+
+---
+
+## 🤖 AI Features
+
+### AI Portfolio Assistant
+An interactive assistant that answers questions about my skills, projects, and experience.
+
+### English to German Translator
+A translation tool prepared for future AI API integration.
+
+---
+
+## 📬 Contact
+
+Feel free to contact me through the portfolio contact form or connect with me on LinkedIn and GitHub.
+
+---
+
+---
+
+## 📚 References & Resources
+
+The following tools, tutorials, and resources helped me during the development of this portfolio:
+
+### Development Resources
+- React Documentation — https://react.dev
+- Tailwind CSS Documentation — https://tailwindcss.com
+- Vite Documentation — https://vitejs.dev
+- TypeScript Documentation — https://www.typescriptlang.org
+- GitHub
+- Vercel
+
+
+### APIs & AI Inspiration
+- MyMemory Translation API
+- OpenAI Inspiration for AI assistant features
+
+### Icons & Assets
+- React Icons — https://react-icons.github.io/react-icons/
+- Google Fonts
+- Unsplash (for inspiration images)
+
+### Learning Platforms
+- ReDI School of Digital Integration
+- YouTube tutorials
+- ChatGPT assistance for debugging, UI improvement, and feature implementation
+
+---
+
+## 🙏 Acknowledgements
+
+Special thanks to:
+- ReDI School of Digital Integration
+- My instructors and mentors
+- The open-source community
+- ChatGPT for coding support and UI/UX improvement guidance
+
+
+## 🚀 Live Demo
+
