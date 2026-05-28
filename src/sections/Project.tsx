@@ -15,7 +15,7 @@ export const Project = () => {
       description: "My personal portfolio built with React, TypeScript and Tailwind CSS.",
       image: "Img6.jpg",
       liveDemo: "https://your-live-demo-link.com",
-      github: "https://github.com/your-username/project-name",
+      github: "https://github.com/Angeligbuwe/my-portfolio-project.git",
     },
     {
       title: "Resume",
