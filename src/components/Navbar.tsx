@@ -9,7 +9,9 @@ const navLinks = [
   { label: "Experience", href: "#experience", color: "hover:text-green-400" },
   { label: "Projects", href: "#projects", color: "hover:text-purple-400" },
   { label: "Resume", href: "#resume", color: "hover:text-yellow-400" }, 
-  { label: "Contact", href: "#contact", color: "hover:text-pink-400" }, 
+  { label: "AI Features", href: "#ai-section", color: "hover:text-cyan-400" }, 
+  { label: "Contact", href: "#contact", color: "hover:text-pink-400" },
+  
 ];
 
 export const Navbar = () => {

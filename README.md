@@ -30,7 +30,7 @@ This portfolio showcases my projects, skills, experience, AI features, and conta
 
 ---
 
-## 📂 Projects Included
+# 📂 Projects Included
 
 ### 🍰 Cake Recipe Finder
 A recipe website where users can search for cake recipes using an API.
@@ -49,15 +49,13 @@ A responsive resume website showcasing my profile and skills.
 An interactive assistant that answers questions about my skills, projects, and experience.
 
 ### English to German Translator
-A translation tool prepared for future AI API integration.
+An interactive translation application that converts English text into German through API integration, demonstrating frontend-backend communication and real time data processing.
 
 ---
 
 ## 📬 Contact
 
 Feel free to contact me through the portfolio contact form or connect with me on LinkedIn and GitHub.
-
----
 
 ---
 

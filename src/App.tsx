@@ -6,22 +6,15 @@ import { Hero } from "./sections/Hero";
 import { Project } from "./sections/Project";
 import { AISection } from "./sections/AISection";
 import { GitHubProjects } from "./sections/GitHubProjects";
-import { useState } from "react";
 import {Testimonials} from "./sections/Testimonials";
 
 function App() {
 
-  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div
-  className={`min-h-screen transition-all duration-500 ${
-    darkMode
-      ? "bg-[#050509] text-white"
-      : "bg-gray-100 text-black"
-  }`}
->
-      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+  className="min-h-screen bg-gray-100 text-black">
+      <Navbar/>
       <main>
         <Hero />
         <About />
@@ -37,3 +30,11 @@ function App() {
 }
 
 export default App
+
+
+
+
+
+
+
+
