@@ -50,36 +50,6 @@ export const AISection = () => {
     }
   };
 
-  // const handleTranslate = () => {
-  //   const text = englishText.trim().toLowerCase();
-
-  //   if (!text) {
-  //     setGermanText("Please write something in English first.");
-  //     return;
-  //   }
-
-  //   const translations: { [key: string]: string } = {
-  //     hello: "Hallo",
-  //     "how are you": "Wie geht es dir?",
-  //     "good morning": "Guten Morgen",
-  //     "good evening": "Guten Abend",
-  //     "thank you": "Danke",
-  //     "my name is angel": "Mein Name ist Angel",
-  //     "i am learning frontend development":
-  //       "Ich lerne Frontend-Entwicklung",
-  //     "i am a frontend developer":
-  //       "Ich bin Frontend-Entwicklerin",
-  //     "i build modern websites":
-  //       "Ich erstelle moderne Webseiten",
-  //     "please contact me":
-  //       "Bitte kontaktieren Sie mich",
-  //   };
-
-  //   setGermanText(
-  //     translations[text] ||
-  //       "Demo translation: This feature is prepared for a real AI API connection later."
-  //   );
-  // };
 
   const handleTranslate = async () => {
   if (!englishText.trim()) {
