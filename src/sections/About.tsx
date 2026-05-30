@@ -1,4 +1,4 @@
-import angelImg from "../assets/IMG9.png";
+import angelImg from "../assets/Ang1.png";
 
 export const About = () => {
   return (

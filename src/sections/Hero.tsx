@@ -1,46 +1,53 @@
 
 import heroAngls from "../assets/Angls.jpg";
 import { Button } from "../components/Button";
-import { AnimatedButton } from "../components/AnimatedButton";
-import angelImg from "../assets/IMG9.png";
+import angelImg from "../assets/Ang1.png";
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 
 const skills =[
-  <div className="flex flex-wrap gap-6 mt-8">
+  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4
+   xl:grid-cols-7 gap-4 mt-8 px-4 mx-w-6xl mx-auto">
 
-  <div className="flex items-center gap-2 glass px-4 py-2 rounded-xl">
+  <div className="flex items-center justify-center gap-2 glass px-3 py-2 rounded-xl 
+  text-sm sm:text-base min-w-[150px]">
     <FaHtml5 className="text-orange-500 text-2xl" />
     <span>HTML</span>
   </div>
 
-  <div className="flex items-center gap-2 glass px-4 py-2 rounded-xl">
+  <div className="flex items-center justify-center gap-2 glass px-3 py-2 rounded-xl
+   text-sm sm:text-base min-w-[150px]">
     <FaCss3Alt className="text-blue-500 text-2xl" />
     <span>CSS</span>
   </div>
 
-  <div className="flex items-center gap-2 glass px-4 py-2 rounded-xl">
+  <div className="flex items-center gap-2 glass px-3 py-2 rounded-xl 
+  text-sm sm:text-base min-w-[150px]">
     <FaJsSquare className="text-yellow-400 text-2xl" />
     <span>JavaScript</span>
   </div>
 
-  <div className="flex items-center gap-2 glass px-4 py-2 rounded-xl">
+  <div className="flex items-center gap-2 glass px-3 py-2 rounded-xl 
+  text-sm sm:text-base min-w-[150px]">
     <FaReact className="text-cyan-400 text-2xl" />
     <span>React</span>
   </div>
 
-  <div className="flex items-center gap-2 glass px-4 py-2 rounded-xl">
+  <div className="flex items-center gap-2 glass px-3 py-2 rounded-xl 
+  text-sm sm:text-base min-w-[150px]">
     <SiTailwindcss className="text-blue-400 text-2xl" />
     <span>Tailwind CSS</span>
   </div>
 
-  <div className="flex items-center gap-2 glass px-4 py-2 rounded-xl">
+  <div className="flex items-center gap-2 glass px-3 py-2 rounded-xl 
+  text-sm sm:text-base min-w-[150px]">
     <SiTypescript className="text-blue-600 text-2xl" />
     <span>TypeScript</span>
   </div>
 
-  <div className="flex items-center gap-2 glass px-4 py-2 rounded-xl">
+  <div className="flex items-center gap-2 glass px-3 py-2 rounded-xl 
+  text-sm sm:text-base min-w-[150px]">
     <FaGitAlt className="text-orange-500 text-2xl" />
     <span>Git</span>
     </div>
@@ -132,7 +139,7 @@ export const Hero = () => {
                 Contact Me
               </Button>
 
-              <AnimatedButton />
+            
               </div>
 
               {/* Social links */}
