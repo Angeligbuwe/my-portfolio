@@ -98,5 +98,3 @@ Special thanks to:
 
 
 ## 🚀 Live Demo
-
-https://angel-personal-portfolio.netlify.app/
