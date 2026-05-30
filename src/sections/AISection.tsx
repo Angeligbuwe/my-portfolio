@@ -52,34 +52,32 @@ export const AISection = () => {
 
 
   const handleTranslate = async () => {
-  if (!englishText.trim()) {
+  const text = englishText.trim();
+
+  if (!text) {
     setGermanText("Please write something in English first.");
     return;
   }
 
   try {
-    const response = await fetch("http://localhost:5000/translate", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ text: englishText }),
-    });
+    const response = await fetch(
+      `https://api.mymemory.translated.net/get?q=${encodeURIComponent(
+        text
+      )}&langpair=en|de`
+    );
 
     const data = await response.json();
 
-    if (data.translatedText) {
-      setGermanText(data.translatedText);
+    if (data.responseData?.translatedText) {
+      setGermanText(data.responseData.translatedText);
     } else {
       setGermanText("Translation failed. Please try again.");
     }
   } catch (error) {
     console.error(error);
-    setGermanText("Could not connect to the AI server.");
+    setGermanText("Translation failed. Please try again.");
   }
 };
-
-
 
   return (
     <section
