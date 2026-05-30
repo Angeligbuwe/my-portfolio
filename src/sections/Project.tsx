@@ -14,7 +14,7 @@ export const Project = () => {
       title: "Portfolio Website",
       description: "My personal portfolio built with React, TypeScript and Tailwind CSS.",
       image: "Img6.jpg",
-      liveDemo: "https://your-live-demo-link.com",
+      liveDemo: "https://angel-personal-portfolio.netlify.app/",
       github: "https://github.com/Angeligbuwe/my-portfolio-project.git",
     },
     {
