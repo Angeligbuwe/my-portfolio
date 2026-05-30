@@ -1,4 +1,4 @@
-import contactImage from '../assets/contact.img.png';
+import contactImage from '../assets/Contact.img.png';
 
 export const Contact = () => {
   return (
